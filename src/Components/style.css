@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #FCEEC8;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.header{
+    height: 90px;
+}
+.Logo{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.left-content,.right-content{
+    margin-top: 30px;
+    flex-basis: 50%;
+}
+.left-content{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap:5rem;
+}
+.card{
+    width: 300px;
+    background-color:#9EDEF9;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.card h2{
+    margin: 0;
+    font-size: 25px !important;
+    font-weight: bolder;
+}
+.right-content{
+    width: 40%;
+    background-image: url("../assets/fondo.png");
+    background-size: contain;
+    background-color: #41040c;
+    border-radius: 20px;
+    box-shadow: 1px 1px  10px rgb(46, 45, 45);
+    text-align: center;
+    color: wheat;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 10px;
+    margin: 0;
+}
+.right-content img{
+    max-height: 130px;
+}
+.right-content h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.abilities{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.abilities .group{
+    background-color: #b74555;
+    color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.base-stat{
+    margin-top: 0.5rem;
+}
+.base-stat h3{
+    margin: 0;
+}
+.btn-group{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+.btn-group button{
+    outline: none;
+    border: none;
+    width: 150px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #b74555;
+    border-radius: 8px;
+}
+spam{
+    padding: 0 !important;
+    margin: 0 !important;
+    font-weight: bolder;
+    color: crimson;
+}
+.spinner{
+    width: 200px;
+}
